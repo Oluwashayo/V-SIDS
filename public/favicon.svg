@@ -1,22 +1,10 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background matching the loading screen: bg-primary rounded-2xl -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="4" fill="#6366f1"/>
-  
-  <!-- Stethoscope icon (medical symbol) -->
-  <g transform="translate(8, 8) scale(0.5)">
-    <!-- Stethoscope tube -->
-    <path d="M8 12h8" stroke="white" stroke-width="2" stroke-linecap="round"/>
-    <path d="M12 8v8" stroke="white" stroke-width="2" stroke-linecap="round"/>
-    
-    <!-- Stethoscope chest piece -->
-    <circle cx="12" cy="12" r="3" fill="white"/>
-    
-    <!-- Stethoscope earpieces -->
-    <circle cx="6" cy="12" r="1.5" fill="white"/>
-    <circle cx="18" cy="12" r="1.5" fill="white"/>
-    
-    <!-- Stethoscope tubing -->
-    <path d="M6 12c0-2.5 2-4.5 4.5-4.5s4.5 2 4.5 4.5" stroke="white" stroke-width="1.5" fill="none"/>
-    <path d="M18 12c0-2.5-2-4.5-4.5-4.5s-4.5 2-4.5 4.5" stroke="white" stroke-width="1.5" fill="none"/>
+  <g transform="translate(4,4) scale(1.2)">
+    <path d="M11 2v2" stroke="white" stroke-width="0.2" stroke-linecap="round"/>
+    <path d="M5 2v2" stroke="white" stroke-width="0.2" stroke-linecap="round"/>
+    <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" stroke="white" stroke-width="0.2" stroke-linecap="round" fill="none"/>
+    <path d="M8 15a6 6 0 0 0 12 0v-3" stroke="white" stroke-width="0.2" stroke-linecap="round" fill="none"/>
+    <circle cx="20" cy="10" r="2" stroke="white" stroke-width="0.2" fill="none"/>
   </g>
 </svg> 
