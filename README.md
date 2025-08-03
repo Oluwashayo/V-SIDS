@@ -1,11 +1,11 @@
 # V-SIDS - AI-Powered Skin Condition Analysis
 
-A modern, AI-powered web application for analyzing skin conditions using advanced computer vision and natural language processing. Built with Next.js, TypeScript, and Tailwind CSS.
+A modern, AI-powered web application for analyzing skin conditions using advanced computer vision and natural language processing. Built with pyhton, Next.js, TypeScript, and Tailwind CSS.
 
 ## 🌟 Features
 
 - **AI-Powered Analysis**: Upload images of skin concerns and get instant AI-powered analysis
-- **Real-time Processing**: Fast, accurate skin condition assessment using LLaVA (Large Language and Vision Assistant)
+- **Real-time Processing**: Fast, accurate skin condition assessment using LoRA (Low-Rank Adaptation) fine-tuned  LLaVA (Large Language and Vision Assistant)
 - **Modern UI/UX**: Beautiful, responsive interface with dark/light theme support
 - **Mobile-First Design**: Optimized for both desktop and mobile devices
 - **Conversation History**: Save and review previous analyses
@@ -172,6 +172,7 @@ If you have any questions or need support:
 ## 📈 Roadmap
 
 - [ ] Multi-language support
+- [ ] Full fine tuning with more datasets
 - [ ] Advanced image preprocessing
 - [ ] Integration with medical databases
 - [ ] Mobile app version
