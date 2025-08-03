@@ -1,5 +1,3 @@
-import { withSerwist } from "@serwist/next"
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -13,4 +11,4 @@ const nextConfig = {
   },
 }
 
-export default withSerwist(nextConfig)
+export default nextConfig
