@@ -1,10 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="64" fill="#6366f1"/>
-  <g transform="translate(128,128) scale(12)">
-    <path d="M11 2v2" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M5 2v2" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" stroke="white" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-    <path d="M8 15a6 6 0 0 0 12 0v-3" stroke="white" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-    <circle cx="20" cy="10" r="2" stroke="white" stroke-width="1.5" fill="none"/>
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: white; }
+        .icon { stroke: black; }
+      }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: black; }
+        .icon { stroke: white; }
+      }
+    </style>
+  </defs>
+  <rect width="512" height="512" rx="64" class="bg"/>
+  <g transform="translate(128,128) scale(12)" class="icon">
+    <path d="M11 2v2" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M5 2v2" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <path d="M8 15a6 6 0 0 0 12 0v-3" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <circle cx="20" cy="10" r="2" stroke-width="1.5" fill="none"/>
   </g>
 </svg> 
